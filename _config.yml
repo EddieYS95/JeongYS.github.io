@@ -1,65 +1,67 @@
-# Site settings
+# SITE CONFIGURATION
+title: 기술블로그             
+   # your site title
+author: (주) 디거 # You :P
+description: > # Meta description of Homepage
+  (주) 디거의 기술 개발 블로그입니다.
+  
+url: "http://tech.digger.works" # the base hostname & protocol for your site, e.g. http://example.com
 
-author: YunsangJeong
-email: kunka8271@gmail.com
-twitter_username: JeongYS
-github_username:  JeongYS
-googleplus_username: JeongYS
+# SEO PLUGIN
+social:
+  name: (주) 디거
+  links:
+    - https://www.facebook.com/publicdigger
 
-head-title: 비효율 개발자
-title: 비효율 개발자
+# THEME SETTINGS
+navigation: # Navigation links
+  - {name: 'Home', link: '/'}
+  - {name: 'About', link: '/about'}
+  - {name: 'Contact', link: '/contact'}
 
-baseurl: "/"    # the subpath of your site, "/blog"
-url: ""
+tagline: >
+  
 
-# footer 
-description: "I know that what I'm doing looks stupid, but I'm a big boy and really want to do this."
+hero_img: posts/background.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
+email: support@digger.works # email for form submission
 
+# twitter_username: jan_czizikow # replace with your_twitter_username or comment to remove link from footer
+github_username:  digger-dev # replace with your_github_username or comment to remove link from footer
+# instagram_username: shanlongjj # replace with your_instagram_username or comment to remove link from footer
+facebook_username: publicdigger
 
-#
-# Build settings
-#
+disqus:
+  shortname: Digger Blog # to enable comments replace with your_disqus_shortname
 
-#exclude: [vendor]
+# google_tag_manager: GTM-XXXXXXX # Uncomment to enable GTM. Replace GTM-XXXXXXX with your GTM container ID
 
+service_worker: true
+
+# BUILD SETTINGS
 markdown: kramdown
-highlighter: rouge
+highlighter: rouge # or pygments or null
+remote_theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
 
-kramdown:
-  input: GFM
-  hard_wrap: false
-  highlight: true
-  auto_ids:  true
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.jpg
 
-sass:
-  style: compressed
+include: ['_pages']
+permalink: /:title/
 
-permalink: /posts/:categories/:title.html
+compress_html:
+  clippings: all
 
-paginate: 7
-#paginate_path: 'page/:num'
-
-gems: [jekyll-paginate, jekyll-last-modified-at, jemoji]
-
-
-#
-# Custom
-#
-
-# Color
-# All css class, see: http://materializecss.com/color.html
-header-color: "indigo lighten-1"
-head-theme-color: "#5c6bc0"     # MUST in hex format, may the same as header-color. This color is for android chrome browser.
-
-footer-color: "indigo lighten-1"
-footer-button-color: "indigo lighten-2"
-footer-link-color: "red-text text-accent-1"
-
-share-button-color: "pink"
-share-button-small-color: ""
-
-
-##
-#excerpt_separator: <!-- excerpt_end -->       # for post.excerpt
-
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

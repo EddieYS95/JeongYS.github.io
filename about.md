@@ -4,31 +4,19 @@ title: About
 permalink: /about/
 ---
 
-#### Tagline
+# 디거 기술 개발팀이란?
+---
 
-Your tagline.
+안녕하세요 디거의 기술개발팀을 맡고 있는 정윤상입니다. 디거의 개발팀은 최고는 아니지만 맡은 문제를 완벽하게
+끝낸다는 목표를 가지고 움직이고 있습니다. 안드로이드/IOS/웹/기계학습(AI)와 같은 다양한 분야를 개발하고 있습니다.
+<br/><br/>
+최고의 기계학습 알고리즘을 만들 수는 없지만 성능이 좋은 백본들을 수집하고 문제에 적합하게 이용하는 능력을
+키우기 위해 열심히 노력하고 있습니다. 최종적으로 누구나 이런 백본들을 이용하여 자신의 문제에 쉽고 빠르게 적용할 수
+있도록 플랫폼을 제공하는것이 우리 디거 개발팀의 목표입니다.
 
-#### Introduction
+# 자동 인공지능 개발 툴 디고(DIGO)
+---
 
-Introduce yourself.
-
-#### This theme
-
-This [jekyll](https://jekyllrb.com) theme is based on [materialize](http://materializecss.com). For more detail, you can view the github repo: [mumuxme/materialize-jekyll](https://github.com/mumuxme/materialize-jekyll)
-
-
-#### License
-
-Copyright&nbsp;&copy;&nbsp;{{ site.author }}
-
-- - -
-
-If any <b>question</b>, please send an <b>email</b> to me or just open an <b>issue</b> on the github repository. 
-
-As for all articles(except reference) are under [CC Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/), you are free to <b>share</b> and <b>adapt</b> for any purpose.
-
-- - -
-
-#### Personal information
-
-Email: {{ site.email }}
+디고는 인공지능 학습을 위해 개발된 서비스 입니다. 인공지능을 개발할때 복잡한 환경세팅과 튜닝과정, 귀찮은 시각툴 세팅을
+최소화 해주기 위해 기획된 서비스입니다. 인공지능 입문자, 고급자 상관없이 쉽고 편하게 기계학습 개발을 할 수 있도록 도와주는 것이
+디고의 최종 목표입니다.
