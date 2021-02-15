@@ -3,18 +3,21 @@
 ---
 // Customization Variables
 
-$accent: #FF0F00;
+$accent: #2866da;
 
 $max-width: 740px;
 $med-width: 600px;
 $small-width: 480px;
 
+// add font
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url("//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-full.css");
 // Basic
 
 body {
     margin: 0;
-    font-family: "Inconsolata";
-    background-color: #FFFFDD;
+    font-family: "Source Code Pro", "D2Coding";
+    background-color: #dddddd;
     min-height: 100%;
 }
 a {
@@ -25,7 +28,7 @@ a:hover {
     text-decoration: underline;
 }
 hr {
-    margin: 5px;
+    margin: 10px 5px 10px 5px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
