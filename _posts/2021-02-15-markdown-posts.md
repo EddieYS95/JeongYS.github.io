@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Or maybe Markdown
-subtitle: This post explains how you can write posts using Markdown.
+title: 마크다운 작성 가이드
+subtitle: 나를 위한 MD 작성을 위한 간단 가이드
 tags: [guide, markdown]
 ---
 
@@ -36,6 +36,12 @@ tags: [guide, markdown]
 
 int main(void){
     printf("hello world!");
+}
+```
+**Here is a sample code snippet in JavaScript,**
+```JavaScript
+function a(){
+    return 'hello'
 }
 ```
 

@@ -12,11 +12,12 @@ $small-width: 480px;
 // add font
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @import url("//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-full.css");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 // Basic
 
 body {
     margin: 0;
-    font-family: "Source Code Pro", "D2Coding";
+    font-family: "Source Code Pro", "Nanum Myeongjo";
     background-color: #dddddd;
     min-height: 100%;
 }
