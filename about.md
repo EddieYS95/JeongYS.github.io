@@ -1,22 +1,25 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: default
+title: About Me
 ---
 
-# 디거 기술 개발팀이란?
----
+<img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}">
 
-안녕하세요 디거의 기술개발팀을 맡고 있는 정윤상입니다. 디거의 개발팀은 최고는 아니지만 맡은 문제를 완벽하게
-끝낸다는 목표를 가지고 움직이고 있습니다. 안드로이드/IOS/웹/기계학습(AI)와 같은 다양한 분야를 개발하고 있습니다.
-<br/><br/>
-최고의 기계학습 알고리즘을 만들 수는 없지만 성능이 좋은 백본들을 수집하고 문제에 적합하게 이용하는 능력을
-키우기 위해 열심히 노력하고 있습니다. 최종적으로 누구나 이런 백본들을 이용하여 자신의 문제에 쉽고 빠르게 적용할 수
-있도록 플랫폼을 제공하는것이 우리 디거 개발팀의 목표입니다.
+I'm Dilbert. I've been working as a Software Engineer for over 30 years. I like to innovate to solve challenging problems using technology. I work with a great Engineering team, but we have a good-for-nothing and clueless manager, who can be replaced with a monkey and the change would be for the better.
 
-# 자동 인공지능 개발 툴 디고(DIGO)
----
+On a personal front, I live with two amazing pets - Dogbert and Ratbert, and three dinasours - Bob, Rex and Dawn - who're hiding from the rest of the world. I'm single and have few friends due to my poor social skills, but I usually spend my time playing with computers and technology.
 
-디고는 인공지능 학습을 위해 개발된 서비스 입니다. 인공지능을 개발할때 복잡한 환경세팅과 튜닝과정, 귀찮은 시각툴 세팅을
-최소화 해주기 위해 기획된 서비스입니다. 인공지능 입문자, 고급자 상관없이 쉽고 편하게 기계학습 개발을 할 수 있도록 도와주는 것이
-디고의 최종 목표입니다.
+### Life Advice
+Here are a few things I've learned over the years,
+> An optimist is simply a pessimist with no job experience.
+
+> All of your co-workers are fools. You must learn to pity and tolerate them.
+
+> There are very few problems that can't be solved through a suitable application of high explosives.
+
+### Publications
+1. Dilbert, Ratbert: "Effects of having a dog and a dinasaur in the same house", _Journal of Wierd Studies_
+2. Alice, Dilbert, Wally: "Efficient ways to deal with a dumb manager", _Conference of Frustrated Engineers_
+
+### Contact Me
+No thanks, I have enough problems of my own to deal with.
